@@ -14,6 +14,6 @@ export class AppComponent {
   }
   removeTask(id:number){
 this.list=this.list.filter(item=>item.id!=id);
-console.warn(id)
+//console.warn(id)
   }
 }
